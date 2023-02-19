@@ -8,7 +8,8 @@ from PIL import Image
 
 st.set_page_config(layout="wide")
 
-DATA_PATH = '../data/oxbuild_images-v1/'
+#DATA_PATH = '../data/oxbuild_images-v1/'
+DATA_PATH = '/app/image-retrieval/project/data/oxbuild_images-v1/'
 IMAGES_PER_PAGE = 10
 
 st.title('Image retrieval')
